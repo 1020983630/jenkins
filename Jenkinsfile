@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn --version'
+        sh '/home/apache-maven-3.6.2/bin/mvn --version'
       }
     }
   }
